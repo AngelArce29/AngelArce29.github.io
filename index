@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Angel Arce | Portafolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="hero">
+
+        <nav class="navbar">
+
+            <h2 class="logo">Angel Arce</h2>
+
+            <ul class="nav-links">
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Tecnologías</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="hero-content">
+
+            <h1>Hola, soy <span>Angel Arce</span></h1>
+
+            <h3>Estudiante de Desarrollo de Software</h3>
+
+            <p>
+                Bienvenido a mi portafolio. Aquí encontrarás algunos de los
+                proyectos que he desarrollado durante mi formación académica.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="https://github.com/AngelArce29" target="_blank" class="btn">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+
+                <a href="#projects" class="btn secondary">
+                    Ver proyectos
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ================= SOBRE MI ================= -->
+
+    <section id="about">
+
+        <h2>Sobre mí</h2>
+
+        <p>
+            Soy estudiante de Desarrollo de Software con interés en el desarrollo
+            web, aplicaciones móviles, bases de datos y redes. Disfruto aprender
+            nuevas tecnologías y desarrollar proyectos que me permitan fortalecer
+            mis habilidades técnicas.
+        </p>
+
+    </section>
+
+    <!-- ================= TECNOLOGIAS ================= -->
+
+    <section id="skills">
+
+        <h2>Tecnologías</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">Java</div>
+            <div class="skill">C#</div>
+            <div class="skill">Python</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Android</div>
+            <div class="skill">Unity</div>
+            <div class="skill">Git</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROYECTOS ================= -->
+
+    <section id="projects">
+
+        <h2>Mis proyectos</h2>
+
+        <div class="projects-grid">
+
+            <!-- Proyecto -->
+
+            <article class="project-card">
+
+                <div class="project-icon">
+                    🧮
+                </div>
+
+                <h3>Taller Práctico 1</h3>
+
+                <h4>Calculadora Colegio Belén</h4>
+
+                <p>
+                    Aplicación para realizar operaciones matemáticas básicas
+                    orientadas al entorno educativo.
+                </p>
+
+                <span>Java</span>
+
+                <a href="#" class="project-button">
+                    Ver repositorio
+                </a>
+
+            </article>
+
+            <!-- Proyecto -->
+
+            <article class="project-card">
+
+                <div class="project-icon">
+                    📻
+                </div>
+
+                <h3>Ejercicio Práctico 1</h3>
+
+                <h4>Emisora Sucesos y Más</h4>
+
+                <p>
+                    Sitio web desarrollado para mostrar información de una
+                    emisora radial.
+                </p>
+
+                <span>HTML • CSS • JavaScript</span>
+
+                <a href="#" class="project-button">
+                    Ver repositorio
+                </a>
+
+            </article>
+
+            <!-- Proyecto -->
+
+            <article class="project-card">
+
+                <div class="project-icon">
+                    💊
+                </div>
+
+                <h3>Ejercicio Práctico 2</h3>
+
+                <h4>Red Mobil Botica</h4>
+
+                <p>
+                    Aplicación enfocada en la gestión de una botica y consulta
+                    de productos.
+                </p>
+
+                <span>Android</span>
+
+                <a href="#" class="project-button">
+                    Ver repositorio
+                </a>
+
+            </article>
+
+            <!-- Proyecto -->
+
+            <article class="project-card">
+
+                <div class="project-icon">
+                    🍽️
+                </div>
+
+                <h3>Ejercicio Práctico 3</h3>
+
+                <h4>ChiriquiEats</h4>
+
+                <p>
+                    Aplicación móvil para gestionar restaurantes, pedidos y
+                    administración de menús.
+                </p>
+
+                <span>Android • SQLite</span>
+
+                <a href="#" class="project-button">
+                    Ver repositorio
+                </a>
+
+            </article>
+
+            <!-- Proyecto -->
+
+            <article class="project-card">
+
+                <div class="project-icon">
+                    🌐
+                </div>
+
+                <h3>Parcial 1</h3>
+
+                <h4>Red LAN para Universidad</h4>
+
+                <p>
+                    Diseño e implementación de una red LAN con segmentación y
+                    direccionamiento IP.
+                </p>
+
+                <span>Redes</span>
+
+                <a href="#" class="project-button">
+                    Ver repositorio
+                </a>
+
+            </article>
+
+            <!-- Proyecto -->
+
+            <article class="project-card">
+
+                <div class="project-icon">
+                    ☕
+                </div>
+
+                <h3>Parcial 2</h3>
+
+                <h4>CRUD ChinosCafe</h4>
+
+                <p>
+                    Sistema CRUD para administrar productos y registros de una
+                    cafetería mediante base de datos.
+                </p>
+
+                <span>Java • SQL</span>
+
+                <a href="#" class="project-button">
+                    Ver repositorio
+                </a>
+
+            </article>
+
+            <!-- Proyecto -->
+
+            <article class="project-card">
+
+                <div class="project-icon">
+                    🧭
+                </div>
+
+                <h3>Proyecto Semestral</h3>
+
+                <h4>App de Turismo</h4>
+
+                <p>
+                    Aplicación móvil enfocada en promover sitios turísticos y
+                    facilitar la consulta de información al usuario.
+                </p>
+
+                <span>Android</span>
+
+                <a href="#" class="project-button">
+                    Ver repositorio
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+
+    <section id="contact">
+
+        <h2>Contacto</h2>
+
+        <p>
+            ¿Te interesa conocer más sobre mis proyectos?
+        </p>
+
+        <a href="https://github.com/AngelArce29" target="_blank" class="btn">
+            <i class="fab fa-github"></i> Mi GitHub
+        </a>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Angel Arce | Portafolio Personal
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
